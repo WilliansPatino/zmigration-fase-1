@@ -5,14 +5,19 @@
 
 * Paso 1
 
-'''    
-[root@webmail ~]#
+    Como usuario o root
 
-'''
+´´´  
+[root@webmail ~]#   git clone https://github.com/WilliansPatino/zmigration-fase-1.git
+
+ [root@webmail ~]#  bash zmigration-fase-1/00_set-route.sh
+´´´
 
 * Paso 2
 
-'''    
+
+
+´´´    
 [root@webmail ~]#
 
-'''
+´´´
