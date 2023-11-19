@@ -1,5 +1,5 @@
 
-SAVETO="$PWD/MIGRATION"
+SAVETO="/tmp/MIGRATION/"
 
 /opt/zimbra/libexec/zmslapcat -a $SAVETO
 

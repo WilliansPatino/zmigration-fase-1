@@ -1,11 +1,13 @@
 #!/usr/bin/bash
 
 
-SAVETO="$HOME/MIGRATION"
+SAVETO="/tmp/MIGRATION/"
+
+
+
 
 mkdir $SAVETO
-chown $USER:zimbra $SAVETO
-
+cp $HOME/zmigration-fase-1/01_get-info-zimbra.sh $SAVETO
 
 
 
