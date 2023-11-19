@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 
-SAVETO="$PWD/MIGRATION"
+SAVETO="$HOME/MIGRATION"
 
 mkdir $SAVETO
 chown $USER:zimbra $SAVETO
