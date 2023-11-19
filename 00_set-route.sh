@@ -1,13 +1,11 @@
 #!/usr/bin/bash
 
-
 SAVETO="/tmp/MIGRATION/"
+FILE="estructura-ldap.ldif"
 
+/opt/zimbra/libexec/zmslapcat -c $SAVETO$FILE
 
-
-
-mkdir $SAVETO
-cp $HOME/zmigration-fase-1/01_get-info-zimbra.sh $SAVETO
+ls -lpa $SAVETO
 
 
 
