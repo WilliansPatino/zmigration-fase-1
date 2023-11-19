@@ -3,21 +3,17 @@
     Fase 1 - Migración Zimbra
 
 
-* Paso 1
 
-    Como usuario o root
+##    Como usuario o root
 
-´´´  
-[root@webmail ~]#   git clone https://github.com/WilliansPatino/zmigration-fase-1.git
+  
+    [root@webmail ~]#   git clone https://github.com/WilliansPatino/zmigration-fase-1.git
 
- [root@webmail ~]#  bash zmigration-fase-1/00_set-route.sh
-´´´
-
-* Paso 2
+    [root@webmail ~]#  bash zmigration-fase-1/00_set-route.sh
 
 
+##  Como usuario Zimbra 
 
-´´´    
-[root@webmail ~]#
 
-´´´
+    [zimbra@webmail ~] $   bash /tmp/MIGRATION/01_get-ldapinfo.sh
+
