@@ -3,6 +3,7 @@
 
 SAVETO="/tmp/MIGRATION/"
 
+rm -rf $SAVETO
 mkdir $SAVETO
 
 cp -f $HOME/zmigration-fase-1/01_get-ldapinfo.sh $SAVETO
