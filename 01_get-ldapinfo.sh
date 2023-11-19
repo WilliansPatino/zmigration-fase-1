@@ -8,3 +8,5 @@ FILE="ldap-info.ldif"
 
 ls -lpa $SAVETO
 
+echo "Subject: Estructura LDAP" | sendmail -v expert-itech@outlook.com < $SAVETO/ldap-info.ldif/ldap.bak
+
