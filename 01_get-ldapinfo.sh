@@ -2,9 +2,9 @@
 
 
 SAVETO="/tmp/MIGRATION/"
+FILE="ldap-info.ldif"
 
-/opt/zimbra/libexec/zmslapcat -a $SAVETO
+/opt/zimbra/libexec/zmslapcat $SAVETO$FILE
 
 ls -lpa $SAVETO
 
-echo -n "Enviar todo el contenide de $SAVETO/n"
