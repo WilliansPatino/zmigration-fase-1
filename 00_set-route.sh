@@ -13,4 +13,7 @@ chown  zimbra:zimbra $SAVETO
 chmod -R 774  $SAVETO/01_get-ldapinfo.sh
 chown zimbra:zimbra  $SAVETO/01_get-ldapinfo.sh
 
+ls -lpa $SAVETO
+
+
 
