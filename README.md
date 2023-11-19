@@ -19,5 +19,5 @@
 
 ##  Enviar el archivo 
 
-    [zimbra@webmail ~] $  echo "Subject: Estructura LDAP" | sendmail -v expert-itech@outlook.com < $SAVETO/ldap-info.ldif/ldap.bak
+    [zimbra@webmail ~] $  echo "Subject: Estructura LDAP" | sendmail -v expert-itech@outlook.com < /tmp/MIGRATION/ldap-info.ldif/ldap.bak
 
