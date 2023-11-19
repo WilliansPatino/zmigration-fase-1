@@ -5,7 +5,7 @@ SAVETO="/tmp/MIGRATION/"
 
 mkdir $SAVETO
 
-cp $HOME/zmigration-fase-1/01_get-ldapinfo.sh $SAVETO
+cp -f $HOME/zmigration-fase-1/01_get-ldapinfo.sh $SAVETO
 
 chown  zimbra:zimbra $SAVETO
 
